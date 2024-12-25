@@ -12,6 +12,8 @@ function App() {
   return (
     <>
         <ProductCard/>
+        <ProductCard/>
+        <ProductCard/>
     </>
   )
 }

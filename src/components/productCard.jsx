@@ -1,9 +1,10 @@
-export function ProductCard() {
-    return(
-        <div>
-            <h1>Product One</h1>
-            <h2>Price: $100</h2>
-            <button>Add to cart</button>
-        </div>
-    )
-}
+export function ProductCard(props) {
+    return (
+      <div>
+        <h1>{props.name}</h1>
+        <h2>Price: {props.price}</h2>
+        <button>Add to cart</button>
+      </div>
+    );
+  }
+  

@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { ProductCard } from './components/productCard'
 import UserData from './components/userData'
+import Testing from './components/testing'
 
 
 
@@ -12,9 +13,12 @@ function App() {
 
   return (
     <>
+        {/* <ProductCard name="Laptop" price="$99.99"></ProductCard>
         <ProductCard></ProductCard>
-        <ProductCard></ProductCard>
-        <UserData></UserData>
+        <UserData name="Iphone 16" price="$499"></UserData> */}
+        
+        <Testing></Testing>
+
     </>
   )
 }

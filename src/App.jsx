@@ -5,6 +5,8 @@ import './App.css'
 import { ProductCard } from './components/productCard'
 import UserData from './components/userData'
 import Testing from './components/testing'
+import LoginPage from './pages/loginPage'
+import HomePage from './pages/homePage'
 
 
 
@@ -13,12 +15,7 @@ function App() {
 
   return (
     <>
-        {/* <ProductCard name="Laptop" price="$99.99"></ProductCard>
-        <ProductCard></ProductCard>
-        <UserData name="Iphone 16" price="$499"></UserData> */}
-        
-        <Testing></Testing>
-
+        <HomePage/>
     </>
   )
 }

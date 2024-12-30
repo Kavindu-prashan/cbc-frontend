@@ -1,4 +1,5 @@
 import "./homePage.css"
+import {Link} from 'react-router-dom'
 
 export default function HomePage() {
   return (
@@ -17,6 +18,7 @@ export default function HomePage() {
         <h1>Welcome to MyWebsite</h1>
         <p>Your one-stop solution for everything!</p>
         <button>Get Started</button>
+        <Link to="/login">Login</Link>
       </header>
     </div>
   );

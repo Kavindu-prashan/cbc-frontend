@@ -1,9 +1,16 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
 
 
-export default function homePage() {
+export default function HomePage() {
   return (
-    <div><h1 className='text-red-950'>HomePage</h1></div>
-  )
+    <div className="w-full h-full bg-red-900">
+      <h1>Welcome to Our Website!</h1>
+      <p>
+        Explore a world of possibilities with our services. We are here to make your life easier and more enjoyable.
+      </p>
+      <button onClick={() => alert('Button Clicked!')}>Get Started</button>
+
+      <Link to="/login">Login</Link>
+    </div>
+  );
 }
